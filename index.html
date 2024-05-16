@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/boxicons/css/boxicons.min.css" />
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/locomotive-scroll/dist/locomotive-scroll.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Vertical Slider</title>
+  </head>
+  <body>
+
+
+<div id="main">
+
+  <nav class="navbar fixed-top navbar-expand-lg shadow-sm navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <div class="pt-1 search d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <i class="bi bi-search fs-4"></i>          </div>
+          </form>
+      </div>
+    </div>
+  </nav>
+
+
+    <div class="slider-container">
+      <div class="left-slide">
+        <div style="background-color: #b99f8a">
+          <h1>Mountain Bike</h1>
+          <p>new collection</p>
+        </div>
+        <div style="background-color: #354f32">
+          <h1>CycloCross</h1>
+          <p>new collection</p>
+        </div>
+        <div style="background-color: #657e85">
+          <h1>Hybrid Bycycle</h1>
+          <p>new collection</p>
+        </div>
+        <div style="background-color: #2b2e32">
+          <h1>Electric Bycle</h1>
+          <p>new collection</p>
+        </div>
+      </div>
+      <div class="right-slide">
+        <div
+          style="
+            background-image: url('assets/img/coen-van-de-broek-QerY__xyKFI-unsplash.jpg');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('assets/img/munbaik-cycling-clothing-rrYrU6aMZMo-unsplash.jpg');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('assets/img/paras-kapoor-2KZwt-Jtl8c-unsplash.jpg');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('assets/img/rick-gebhardt-Hi_FonIcfjk-unsplash.jpg');
+          "
+        ></div>
+      </div>
+      <div class="action-buttons">
+        <button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+
+    <section id="clients" class="clients section-bg">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+     <!-- ======= Features Section ======= -->
+     <section id="features" class="padd-section text-center">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>Amazing Features.</h2>
+          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="assets/img/svg/paint-palette.svg" alt="img">
+              <h4>Slows Global Warning</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="assets/img/svg/vector.svg" alt="img">
+              <h4>Zero Emission</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="assets/img/svg/design-tool.svg" alt="img">
+              <h4>easy to use</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="assets/img/svg/asteroid.svg" alt="img">
+              <h4>It Carrie Your Goodie Home</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="assets/img/svg/asteroid.svg" alt="img">
+              <h4>Shape Up That Bodie</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="assets/img/svg/cloud-computing.svg" alt="img">
+              <h4>Whizzes Past Traffic Jams</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="assets/img/svg/pixel.svg" alt="img">
+              <h4>No Need To Pay for gas, parking fees and auto-insurance</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="feature-block">
+              <img src="assets/img/svg/code.svg" alt="img">
+              <h4>Give You legs of steel</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <h2 class="text-center">Frequently Asked Questions</h2>
+
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="row">
+          <div
+            class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1"
+          >
+            <div class="content">
+              <h3>
+                Eum ipsam laborum deleniti
+                <strong>velit pariatur architecto aut nihil</strong>
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
+                aute irure dolor in reprehenderit
+              </p>
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a
+                    data-bs-toggle="collapse"
+                    class="collapse"
+                    data-bs-target="#accordion-list-1"
+                    ><span>01</span> Non consectetur a erat nam at lectus urna
+                    duis? <i class="bx bx-chevron-down icon-show"></i
+                    ><i class="bx bx-chevron-up icon-close"></i
+                  ></a>
+                  <div
+                    id="accordion-list-1"
+                    class="collapse show"
+                    data-bs-parent=".accordion-list"
+                  >
+                    <p>
+                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna
+                      id volutpat lacus laoreet non curabitur gravida. Venenatis
+                      lectus magna fringilla urna porttitor rhoncus dolor purus
+                      non.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a
+                    data-bs-toggle="collapse"
+                    data-bs-target="#accordion-list-2"
+                    class="collapsed"
+                    ><span>02</span> Feugiat scelerisque varius morbi enim nunc?
+                    <i class="bx bx-chevron-down icon-show"></i
+                    ><i class="bx bx-chevron-up icon-close"></i
+                  ></a>
+                  <div
+                    id="accordion-list-2"
+                    class="collapse"
+                    data-bs-parent=".accordion-list"
+                  >
+                    <p>
+                      Dolor sit amet consectetur adipiscing elit pellentesque
+                      habitant morbi. Id interdum velit laoreet id donec
+                      ultrices. Fringilla phasellus faucibus scelerisque
+                      eleifend donec pretium. Est pellentesque elit ullamcorper
+                      dignissim. Mauris ultrices eros in cursus turpis massa
+                      tincidunt dui.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a
+                    data-bs-toggle="collapse"
+                    data-bs-target="#accordion-list-3"
+                    class="collapsed"
+                    ><span>03</span> Dolor sit amet consectetur adipiscing elit?
+                    <i class="bx bx-chevron-down icon-show"></i
+                    ><i class="bx bx-chevron-up icon-close"></i
+                  ></a>
+                  <div
+                    id="accordion-list-3"
+                    class="collapse"
+                    data-bs-parent=".accordion-list"
+                  >
+                    <p>
+                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                      sagittis orci. Faucibus pulvinar elementum integer enim.
+                      Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                      tellus pellentesque eu tincidunt. Lectus urna duis
+                      convallis convallis tellus. Urna molestie at elementum eu
+                      facilisis sed odio morbi quis
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-5 align-items-stretch order-1 order-lg-2 img mt-3"
+            style="
+              background-image: url('assets/img/munbaik-cycling-clothing-9oF4BnJLBo8-unsplash.jpg');
+            "
+            data-aos="zoom-in"
+            data-aos-delay="150"
+          >
+            &nbsp;
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Why Us Section -->
+
+   
+  <!-- Services Section -->
+  <section id="services" class="services section">
+
+    <!-- Section Title -->
+    <div class="container section-title text-center" data-aos="fade-up">
+      <h2>Services</h2>
+      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+      <div class="row g-5">
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-item item-cyan position-relative d-flex align-items-center">
+            <!-- <i class="bi bi-activity icon"></i> -->
+            <img src="assets/img/byclerepair.png "  style="height: 100px; width:100px;" alt="">
+            <div class="m-3">
+              <h3>ByCycle Repair</h3>
+              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <a href="service-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-item item-orange position-relative  d-flex align-items-center">
+            <!-- <i class="bi bi-broadcast icon"></i> -->
+            <img src="assets/img/bycyleWash.png"  style="height: 100px; width:100px;" alt="">
+
+            <div class="m-3">
+              <h3>Bycycle Wash</h3>
+              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <a href="service-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div><!-- End Service Item -->
+
+       
+
+      </div>
+
+    </div>
+
+  </section><!-- /Services Section -->
+
+         <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Call To Action</h3>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+
+        <!-- ======= Testimonials Section ======= -->
+        <section id="testimonials" class="padd-section text-center">
+          <div class="container mt-4" data-aos="fade-up">
+            <div class="row justify-content-center">
+    
+              <div class="col-md-8">
+    
+                <div class="testimonials-content">
+                  <div id="carousel-example-generic" class="carousel slide" data-bs-ride="carousel">
+    
+                    <div class="carousel-inner" role="listbox">
+    
+                      <div class="carousel-item  active">
+                        <div class="top-top">
+    
+                          <h2>Our Users Speack volumes us</h2>
+                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries.</p>
+                          <h4>Kimberly Tran<span>manager</span></h4>
+    
+                        </div>
+                      </div>
+    
+                      <div class="carousel-item ">
+                        <div class="top-top">
+    
+                          <h2>Our Users Speack volumes us</h2>
+                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries.</p>
+                          <h4>Henderson<span>manager</span></h4>
+    
+                        </div>
+                      </div>
+    
+                      <div class="carousel-item ">
+                        <div class="top-top">
+    
+                          <h2>Our Users Speack volumes us</h2>
+                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries.</p>
+                          <h4>David Spark<span>manager</span></h4>
+    
+                        </div>
+                      </div>
+    
+                    </div>
+    
+                    <div class="btm-btm">
+    
+                      <ul class="list-unstyled carousel-indicators">
+                        <li data-bs-target="#carousel-example-generic" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carousel-example-generic" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carousel-example-generic" data-bs-slide-to="2"></li>
+                      </ul>
+    
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </section><!-- End Testimonials Section -->
+
+            <!-- ======= Why Us Section ======= -->
+    <!-- <section id="why-us" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="row">
+          <div
+          class="col-lg-5 align-items-stretch  img mt-3"
+          style="
+            background-image: url('assets/img/munbaik-cycling-clothing-9oF4BnJLBo8-unsplash.jpg');
+          "
+          data-aos="zoom-in"
+          data-aos-delay="150"
+        >
+          &nbsp;
+        </div>
+        
+          <div
+            class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch "
+          >
+            <div class="content">
+              <h3>
+                Eum ipsam laborum deleniti
+                <strong>velit pariatur architecto aut nihil</strong>
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
+                aute irure dolor in reprehenderit
+              </p>
+            </div>
+            
+            
+          </div>
+
+        
+        </div>
+      </div>
+    </section> -->
+     <!-- End Why Us Section -->
+        
+     <h1>Drag the cards to move them</h1>
+<div class="carousel2">
+     <div class="container">
+       <div class="card-carousel ">
+         <div class="card" id="1">
+           <div class="image-container"></div>
+           <p>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+         </div>
+         <div class="card" id="2">
+           <div class="image-container"></div>
+           <p>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+         </div>
+         <div class="card" id="3">
+           <div class="image-container"></div>
+           <p>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+         </div>  
+         <div class="card" id="4">
+           <div class="image-container"></div>
+           <p>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+         </div>
+         <div class="card" id="5">
+           <div class="image-container"></div>
+           <p>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+         </div>
+       </div>
+       <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+     </div>
+    </div>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title text-center mt-2">
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+   
+    
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">QuickStart</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <form action="forms/newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">QuickStart</strong><span>All Rights Reserved</span></p>
+      <div class="credits">
+     
+        Designed by <a href="">Archana</a>
+      </div>
+    </div>
+
+  </footer>
+
+    
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        <div id="preloader"></div>
+      
+      </div>
+    <script>
+      AOS.init();
+      const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+    </script>
+    <script src="assets/aos/src/js/aos.js"></script>
+    <script src="assets/locomotive-scroll/dist/locomotive-scroll.min.js"></script>  
+ 
+    <script src="assets/dist/js/bootstrap.bundle.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
